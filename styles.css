@@ -448,3 +448,12 @@ height: auto;}
 }
 
 .hero-btn:is(:hover, :focus-visible) {color: var(--bg-majorelle-blue);}
+
+
+
+/**FOOTER**/
+
+.footer {
+    padding: 20px;
+    
+}
