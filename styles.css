@@ -112,8 +112,7 @@ body{
 }
 
 
-body.nav-active { overflow: hidden;
-}
+body.nav-active { overflow: hidden;}
 
 /***REUSED STYLE***/
 .container {padding-inline: 16px;}
@@ -342,6 +341,6 @@ body.nav-active { overflow: hidden;
 }
 
 .overlay.active{
-    visibility: visible;
+    visibility: hidden;
     opacity: 0.5;
 }
