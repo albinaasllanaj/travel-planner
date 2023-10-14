@@ -588,3 +588,16 @@ height: auto;}
     width: 25%;
     filter: drop-shadow(var(--shadow-4));
 }
+
+/****GALLERY*****/
+
+.gallery .section-title {margin-block-end: 40px;}
+
+.gallery-list {
+    display: grid;
+    gap: 15px;
+}
+
+.gallery .img-cover {
+    border-radius: 30px;
+}
