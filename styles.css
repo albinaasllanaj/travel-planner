@@ -769,6 +769,13 @@ height: auto;}
 
 .desti-list {grid-template-columns: 1fr 1fr;}
 
+/**FOOTER**/
+
+.footer-bottom-list{
+    display: flex;
+    gap: 30px;
+}
+
 }
 
 /**FOOTER**/
@@ -923,3 +930,4 @@ height: auto;}
 
 
 }
+
