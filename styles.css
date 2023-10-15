@@ -1136,3 +1136,56 @@ height: auto;}
     
 
 }
+
+/*responsive for larger than 1400px screen*/
+
+@media (min-width: 1400px){
+    /*CUSTOM PROPERTY*/
+
+   :root {
+
+    /*typography*/
+
+    /*font size*/
+
+    --fontSize1:7.2rem;
+
+   }
+
+   /*REUSED STYLE*/
+
+   .container {max-width: 1350px;}
+
+
+   /*HEADER*/
+
+   .navbar-list {gap: 70px;}
+
+
+   /*SERVICE*/
+
+   .service .section-title {margin-block: 20px;}
+
+   .service .title-wrapper {
+    grid-column: auto;
+    padding-inline-end: 0;
+   }
+
+   .service .container {
+    grid-template-columns: 1fr repeat(3, 0.9fr);
+    gap: 50px;
+   }
+
+   .service-card:nth-child(3){
+      margin-block-start: 80px;
+   }
+  
+   /*DESTINATION*/
+
+   .desti-list {gap: 50px;}
+
+   /*FOOTER*/
+
+   .footer-top {padding-block-end: 80px;}
+
+}
