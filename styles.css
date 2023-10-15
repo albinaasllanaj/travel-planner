@@ -780,7 +780,6 @@ height: auto;}
 
 
 
-
 /*responsive for larger than 768px screen*/
 
 @media (min-width: 768px){
@@ -997,6 +996,12 @@ height: auto;}
 
     /**DESTINATION**/
 
+
+    .desti-list {grid-template-columns: repeat(3, 1fr)}
+
+
+    /*EXPERIENCE*/
+
     .exp .container {
         grid-template-columns: 1fr 1fr;
         align-items: center;
@@ -1042,4 +1047,92 @@ height: auto;}
         max-width: 25ch;
         margin-inline: auto;
     }
+}
+
+
+/*responsive for larger than 1200px screen*/
+
+@media (min-width: 1200px){
+
+    /**CUSOTM PROPERTY**/
+
+    :root {
+        /*typography*/
+
+        /*font size*/
+
+        --fontSize-1: 6.4rem;
+        --fontSize-2: 4.8rem;
+        --fontSize-3: 3rem;
+    }
+
+    /**REUSED STYLE**/
+
+    .container {max-width: 1150px;}
+
+
+    /*HEADER*/
+
+    .header .logo img {width: 180px;}
+
+    .navbar-list {gap: 50px;}
+
+    .header-action {gap: 40px;}
+
+    /*HERO*/
+
+    .hero-title {margin-block: 30px;}
+    .hero-text {margin-block-end: 50px;}
+
+
+    /*SERVICE*/
+
+
+    .service .container {grid-template-columns: repeat(3, 1fr);}
+
+    .service .title-wrapper {grid-column: span 3;}
+
+    /*DESTINATION*/
+
+    .desti-card .card-price {
+        font-size: 2rem;
+        padding: 8px 20px;
+    }
+
+    .desti-card .card-title {margin-block: 30px 10px;}
+
+    .desti-card .card-rating {margin-block-start: 15px;}
+
+    /*EXPERIENCE*/
+
+    .exp .section-text {margin-block: 30px 40px;}
+
+    .exp-list {gap: 50px;}
+
+    .exp-shape {
+        top: -10;
+        left: -50px;
+    }
+
+    /*CTA*/
+
+    .cta-card {padding-block: 120px;}
+
+    /*FOOTER*/
+
+    .footer-top {
+        grid-template-columns: 1fr 0.5fr 0.6fr 0.6fr 1fr;
+        gap: 60px;
+    }
+
+    .footer-brand .footer-text {margin-block: 35px 30px;}
+
+
+    .footer-list-title {margin-block-end: 25px;}
+
+    .footer-bottom-list {gap: 40px;}
+
+
+    
+
 }
